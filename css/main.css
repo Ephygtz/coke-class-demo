@@ -1,0 +1,33 @@
+#header {
+  background-image: url('../images/product-photo.jpg');
+  padding: 145px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+#header {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#header h1 {
+  color: #FF0000;
+  /*font-size: 18px;*/
+}
+
+body {
+    font-family: Arial,sans-serif;
+}
+
+a:hover,
+a:focus {
+    color: #eb3812;
+}
+
+  @media screen and (min-width: 768px) {
+  #header,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
